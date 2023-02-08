@@ -12,7 +12,7 @@ You can simply test your connection to your database with the following:
 package main
 
 import (
-	"gorm.io/driver/clickhouse"
+	"github.com/winter-hu/clickhouse"
 	"gorm.io/gorm"
 )
 
@@ -59,7 +59,7 @@ func main() {
 package main
 
 import (
-  "gorm.io/driver/clickhouse"
+  "github.com/winter-hu/clickhouse"
   "gorm.io/gorm"
 )
 
@@ -94,7 +94,7 @@ func main() {
 package main
 
 import (
-  "gorm.io/driver/clickhouse"
+  "github.com/winter-hu/clickhouse"
   "gorm.io/gorm"
 )
 
